@@ -33,6 +33,7 @@ tar -xvf code-server2.1698-vsc1.41.1-linux-arm64.tar.gz
 congrats, you have extracted that file. Now you can remove the archive optionally to free up some 
 space else you're going to use later. 
 ` The files are no more in an executable format, they need to be placed in a /bin folder`
+
 5. copy file that you have extracted to `/bin` folder . use this command
 ```
 cp code-server2.1698-vsc1.41.1-linux-arm64/code-server /bin
@@ -44,7 +45,7 @@ You can call editor by running command `code-server` anywhere in your terminal
 root@localhost:~# code-server
 ```
 FINAL NOTE : Each time you launch it, you'll see a new password and it can be annoying.
-so let set a password in our environmen variabel, use this command
+so let set a password in our environment variabel, use this command
 ```
 export PASSWORD="<your password>"
 ```
